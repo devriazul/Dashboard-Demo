@@ -788,13 +788,15 @@
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-gear-fill mr-1"></i>Yesterday</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-bell-fill-2 mr-1"></i>Last Week</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-dots mr-1"></i>Last 30 Days</a>
+                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-dots mr-1"></i>Life Time</a>
                             </div>
                         </div>
 
                         <div class="btn-group  mb-2 me-4" role="group">
                             <button id="btndefault4" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Branch <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
                             <div class="dropdown-menu" aria-labelledby="btndefault4">
-                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>London Office</a>
+                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>All</a>
+                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-gear-fill mr-1"></i>London Office</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-gear-fill mr-1"></i>Dhaka Office</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-bell-fill-2 mr-1"></i>Nepal Office</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-dots mr-1"></i>Pakistan Office</a>
@@ -806,6 +808,7 @@
                         <div class="btn-group  mb-2 me-4" role="group">
                             <button id="btndefault1" type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Counselor <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
                             <div class="dropdown-menu" aria-labelledby="btndefault1">
+                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>All</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>Isabella</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-gear-fill mr-1"></i>Valentina</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-bell-fill-2 mr-1"></i>Alif Tasnim</a>
@@ -817,6 +820,7 @@
                         <div class="btn-group  mb-2 me-4" role="group">
                             <button id="btndefault2" type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Intake <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
                             <div class="dropdown-menu" aria-labelledby="btndefault2">
+                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>All</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>January 2024</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-gear-fill mr-1"></i>March 2024</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-bell-fill-2 mr-1"></i>May 2024</a>
@@ -827,6 +831,7 @@
                         <div class="btn-group  mb-2 me-4" role="group">
                             <button id="btndefault3" type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">University <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
                             <div class="dropdown-menu" aria-labelledby="btndefault3">
+                                <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>All</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-home-fill-1 mr-1"></i>Anglia Ruskin University</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-gear-fill mr-1"></i>Acadia University</a>
                                 <a href="javascript:void(0);" class="dropdown-item"><i class="flaticon-bell-fill-2 mr-1"></i>Adler University</a>
