@@ -9,6 +9,7 @@
     <link href="{{ asset('layouts/horizontal-dark-menu/css/light/loader.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('layouts/horizontal-dark-menu/css/dark/loader.css') }}" rel="stylesheet" type="text/css" />
     <script src="{{ asset('layouts/horizontal-dark-menu/loader.js') }}"></script>
+
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
     <link href="{{ asset('src/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
@@ -20,7 +21,6 @@
     <link href="{{ asset('src/plugins/src/apex/apexcharts.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('src/assets/css/light/components/list-group.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('src/assets/css/light/dashboard/dash_2.css') }}" rel="stylesheet" type="text/css" />
-
     <link href="{{ asset('src/assets/css/dark/components/list-group.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('src/assets/css/dark/dashboard/dash_2.css') }}" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->

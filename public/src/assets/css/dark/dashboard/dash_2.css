@@ -11,6 +11,18 @@
 body.dark .layout-spacing {
   padding-bottom: 25px;
 }
+.w-value {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+  align-self: center;
+}
+.w-icon {
+  color: #5f0a87;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50%;
+}
 body.dark .widget {
   position: relative;
   padding: 20px;
