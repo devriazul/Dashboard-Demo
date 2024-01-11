@@ -426,8 +426,8 @@ window.addEventListener("load", function(){
             width: 15,
             colors: '#0e1726'
           },
-          series: [985, 737, 270],
-          labels: ['UK', 'Bangladesh', 'India'],
+          series: [985, 737, 270, 192, 154, 251],
+          labels: ['UK', 'Bangladesh', 'India', 'Nepal', 'Pakistan', 'Nigeria'],
     
           responsive: [
             { 
@@ -872,8 +872,8 @@ window.addEventListener("load", function(){
             width: 15,
             colors: '#fff'
           },
-          series: [985, 737, 270],
-          labels: ['UK', 'Bangladesh', 'India'],
+          series: [985, 737, 270, 368],
+          labels: ['UK', 'Bangladesh', 'India', 'Nepal'],
     
           responsive: [
             { 
@@ -893,7 +893,13 @@ window.addEventListener("load", function(){
             { 
               breakpoint: 575, options: {
                 chart: {
-                  width: 320
+                  width: 160
+                },
+              }
+            },{ 
+              breakpoint: 368, options: {
+                chart: {
+                  width: 160
                 },
               }
             },
