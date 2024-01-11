@@ -1526,8 +1526,8 @@
                                                 <th><div class="th-content">Email</div></th>
                                                 <th><div class="th-content">Phone</div></th>
                                                 <th><div class="th-content">Branch</div></th>
-                                                <th><div class="th-content">Assigned Counselor</div></th>
-                                                <th><div class="th-content">Created Date</div></th>
+                                                <th><div class="th-content">Counselor</div></th>
+                                                <th><div class="th-content">Date</div></th>
                                                 <th><div class="th-content">Lead Source</div></th>
                                                 <th><div class="th-content">Status</div></th>
                                                 <th><div class="th-content">Action</div></th>
