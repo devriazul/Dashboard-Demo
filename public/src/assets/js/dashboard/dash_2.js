@@ -204,7 +204,7 @@ window.addEventListener("load", function(){
         }]
         },
         subtitle: {
-          text: '840',
+          text: '39,571',
           align: 'left',
           margin: 0,
           offsetX: 100,
