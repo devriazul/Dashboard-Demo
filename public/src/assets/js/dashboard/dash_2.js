@@ -427,7 +427,7 @@ window.addEventListener("load", function(){
             colors: '#0e1726'
           },
           series: [985, 737, 270],
-          labels: ['Apparel', 'Sports', 'Others'],
+          labels: ['UK', 'Bangladesh', 'India'],
     
           responsive: [
             { 
@@ -873,7 +873,7 @@ window.addEventListener("load", function(){
             colors: '#fff'
           },
           series: [985, 737, 270],
-          labels: ['Apparel', 'Sports', 'Others'],
+          labels: ['UK', 'Bangladesh', 'India'],
     
           responsive: [
             { 
