@@ -204,7 +204,7 @@ window.addEventListener("load", function(){
         }]
         },
         subtitle: {
-          text: '$10,840',
+          text: '840',
           align: 'left',
           margin: 0,
           offsetX: 100,
@@ -216,7 +216,7 @@ window.addEventListener("load", function(){
           }
         },
         title: {
-          text: 'Total Profit',
+          text: 'Total Lead',
           align: 'left',
           margin: 0,
           offsetX: -10,
@@ -234,12 +234,15 @@ window.addEventListener("load", function(){
             lineCap: 'square'
         },
         series: [{
-            name: 'Expenses',
-            data: [16800, 16800, 15500, 14800, 15500, 17000, 21000, 16000, 15000, 17000, 14000, 17000]
+            name: 'New',
+            data: [1680, 1680, 1550, 1480, 1550, 1700, 2100, 1600, 1500, 1700, 1400, 1700]
         }, {
-            name: 'Income',
-            data: [16500, 17500, 16200, 17300, 16000, 21500, 16000, 17000, 16000, 19000, 18000, 19000]
-        }],
+            name: 'In Progress',
+            data: [1650, 1750, 1620, 1730, 1600, 2150, 1600, 1700, 1600, 1900, 1800, 1900]
+        },{
+          name: 'Apply Done',
+          data: [1065, 1075, 1062, 1073, 1060, 2015, 1060, 1070, 1060, 1090, 1080, 1090]
+      }],
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         xaxis: {
           axisBorder: {

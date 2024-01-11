@@ -204,7 +204,7 @@ window.addEventListener("load", function(){
         }]
         },
         subtitle: {
-          text: '$10,840',
+          text: '10,840',
           align: 'right',
           margin: 0,
           offsetX: -170,
@@ -216,7 +216,7 @@ window.addEventListener("load", function(){
           }
         },
         title: {
-          text: 'Total Profit',
+          text: 'Total Lead',
           align: 'right',
           margin: 0,
           offsetX: -90,
