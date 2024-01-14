@@ -966,7 +966,7 @@
                     <div class="zc-body">
                         <h5 class="">Lead Success Funnel for 30 Days</h5>
                         <div id="myChart" class="chart--container">
-                          <a href="https://www.zingchart.com/" rel="noopener" class="zc-ref">Powered by ZingChart</a>
+
                         </div>
                       
                         <script>
