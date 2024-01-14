@@ -951,11 +951,150 @@
                        
 
                 <div class="row layout-top-spacing">
-
+                    <script nonce="undefined" src="https://cdn.zingchart.com/zingchart.min.js"></script>
+                    <style>
+                        .chart--container {
+                          height: 100%;
+                          width: 100%;
+                          /* min-height: 530px; */
+                        }
+                    
+                        .zc-ref {
+                          display: none;
+                        }
+                      </style>
+                    <div class="zc-body">
+                        <h5 class="">Lead Success Funnel for 30 Days</h5>
+                        <div id="myChart" class="chart--container">
+                          <a href="https://www.zingchart.com/" rel="noopener" class="zc-ref">Powered by ZingChart</a>
+                        </div>
+                      
+                        <script>
+                          ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"]; // CHART CONFIG
+                          // -----------------------------
+                          let chartConfig = {
+                            type: 'hfunnel',
+                            theme: 'classic',
+                            backgroundColor: '#fff',
+                            backgroundColor2: '#f1f1f1',
+                            plot: {
+                              tooltip: {
+                                shadow: false,
+                              },
+                              tooltipText: '%v Actions',
+                              offset: '40px',
+                              scales: 'scale-x,scale-y-2',
+                            },
+                            plotarea: {
+                              margin: '75px 25px 50px 80px',
+                            },
+                            scaleX: {
+                              values: ['<b>449</b><br>Count'],
+                              item: {
+                                fontSize: '14px',
+                                offsetY: '-20px',
+                              },
+                            },
+                            scaleY: {
+                              visible: false,
+                            },
+                            scaleY2: {
+                              values: [
+                                'New',
+                                'In Progress',
+                                'Documents received',
+                                'Apply Done',
+                                'Missing Documents',
+                                'EU Family - Under 3 Years',
+                                'SFE Taken 1-3 Years',
+                              ],
+                              guide: {
+                                items: [{
+                                    backgroundColor: '#fff',
+                                  },
+                                  {
+                                    backgroundColor: '#eee',
+                                  },
+                                  {
+                                    backgroundColor: '#ddd',
+                                  },
+                                  {
+                                    backgroundColor: '#ccc',
+                                  },
+                                  {
+                                    alpha: 0.2,
+                                    backgroundColor: 'green',
+                                  },
+                                  {
+                                    alpha: 0.1,
+                                    backgroundColor: 'blue',
+                                  },
+                                  {
+                                    alpha: 0.07,
+                                    backgroundColor: 'green',
+                                  },
+                                ],
+                              },
+                            },
+                            series: [{
+                                values: [38005],
+                                backgroundColor: '#5FB4E8',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                              {
+                                values: [19024],
+                                backgroundColor: '#EBC765',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                              {
+                                values: [8965],
+                                backgroundColor: '#8FB550',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                              {
+                                values: [2848],
+                                backgroundColor: '#D17549',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                              {
+                                values: [999],
+                                backgroundColor: '#8E468E',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                              {
+                                values: [2848],
+                                backgroundColor: '#D17549',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                              {
+                                values: [999],
+                                backgroundColor: '#8E468E',
+                                borderColor: '#000000',
+                                shadow: false,
+                              },
+                            ],
+                          };
+                      
+                          // RENDER CHARTS
+                          // -----------------------------
+                          zingchart.render({
+                            id: 'myChart',
+                            data: chartConfig,
+                          });
+                        </script>
+                    </div>
+                </div>
+                <div class="row layout-top-spacing">
                     <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
                         <div class="widget widget-chart-one">
                             <div class="widget-heading">
-                                <h5 class="">Lead Success Funnel for 30 Days</h5>
+                                {{-- <h5 class="">Lead Success Funnel for 30 Days</h5> --}}
                                 <div class="task-action">
                                     <div class="dropdown">
                                         <a class="dropdown-toggle" href="#" role="button" id="renvenue" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
