@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+
 <!-- BEGIN LOADER -->
 <div id="load_screen"> <div class="loader"> <div class="loader-content">
     <div class="spinner-grow align-self-center"></div>
@@ -975,8 +976,8 @@
                           let chartConfig = {
                             type: 'hfunnel',
                             theme: 'classic',
-                            backgroundColor: '#fff',
-                            backgroundColor2: '#f1f1f1',
+                            // backgroundColor: '#fff',
+                            // backgroundColor2: '#f1f1f1',
                             plot: {
                               tooltip: {
                                 shadow: false,
@@ -991,7 +992,7 @@
                             scaleX: {
                               values: ['<b>449</b><br>Count'],
                               item: {
-                                fontSize: '14px',
+                                fontSize: '16px',
                                 offsetY: '-20px',
                               },
                             },
